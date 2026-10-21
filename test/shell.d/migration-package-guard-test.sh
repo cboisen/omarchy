@@ -16,7 +16,6 @@ shared_dirs=(applications dbus-1 doc fonts icons licenses locale man pixmaps pol
 # is fixed; the check below fails while a fixed migration is still listed.
 declare -A known_unguarded=(
   ["1781587663.sh omarchy-nvim"]="#7108"
-  ["1791723398.sh omarchy-nvim"]="no issue yet"
 )
 
 # A check only guards when the migration acts on its result: inside an if, or
